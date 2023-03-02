@@ -4,7 +4,8 @@ RSpec.describe "transactions/edit", type: :view do
   let(:transaction) {
     Transaction.create!(
       name: "MyString",
-      amount: 1.5
+      amount: 1.5,
+      paid_at: Time.now,
     )
   }
 

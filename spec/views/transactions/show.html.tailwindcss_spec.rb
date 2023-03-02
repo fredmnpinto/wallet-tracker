@@ -4,7 +4,8 @@ RSpec.describe "transactions/show", type: :view do
   before(:each) do
     assign(:transaction, Transaction.create!(
       name: "Name",
-      amount: 2.5
+      amount: 2.5,
+      paid_at: Time.now,
     ))
   end
 
