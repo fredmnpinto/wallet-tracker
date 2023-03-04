@@ -78,6 +78,8 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
   gem 'shoulda-matchers', '~> 5.0'
+  gem 'factory_bot'
+  gem 'faker'
 end
 
 gem "tailwindcss-rails", "~> 2.0"

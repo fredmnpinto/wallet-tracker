@@ -6,6 +6,7 @@ RSpec.describe "transactions/show", type: :view do
       name: "Name",
       amount: 2.5,
       paid_at: Time.now,
+      user: FactoryBot.create(:user)
     ))
   end
 
