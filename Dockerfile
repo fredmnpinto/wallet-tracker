@@ -7,7 +7,7 @@ COPY . .
 EXPOSE 3000
 
 # CMD ["rails", "tailwindcss:watch&"]
-CMD rake assets:precompile
+CMD bundle exec rake assets:precompile
 
 ENTRYPOINT [ "sh", "startup.sh" ]
 
